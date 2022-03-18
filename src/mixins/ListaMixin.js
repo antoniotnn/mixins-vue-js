@@ -9,5 +9,8 @@ export default {
             this.itens.push(this.item);
             this.item = '';
         }
+    },
+    created() {
+        console.log('ListaMixin Criado');
     }
 }
